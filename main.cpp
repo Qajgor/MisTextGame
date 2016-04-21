@@ -2,7 +2,6 @@
 #include <iostream>
 int main()
 {
-    gracz Igor;
-
+    gracz Igor();
     return 0;
 }

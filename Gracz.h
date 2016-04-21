@@ -14,9 +14,10 @@ private:
     int INT;
     int DEX;
     string Backpack[20];
-    Equipment EQ[12];
+    //Equipment EQ[12];
+    int miejsce;
 public:
-    gracz(int nazwa="None",int zycie=200,int mana=200,int lvl=1,int exp=0,int atk=10,int def=10,int mdef=10,int inteligencja=10,int dex=10);//Konstruktor gracza
+    gracz(string nazwa = "None", int zycie = 200, int mana = 200, int lvl = 1, int exp = 0, int atk = 10, int def = 10, int mdef = 10, int inteligencja = 10, int dex = 10);//Konstruktor gracza
     friend void Heal(gracz, string);//Leczenie za pomoc¹ przedmiotu
     void HPRegeneration();//Regeneracja ¿ycia gracza
     void MPRegeneration();//Regeneracja many gracza
@@ -29,4 +30,4 @@ public:
     void Dodge();//Unik
     void Defense(int);//Obrona
     void magicDefense(int);//Obrona przed magi¹
-}
+};

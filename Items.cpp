@@ -1,10 +1,13 @@
 #include "Items.h"
 
-Item::Item(string nazwa="None")
+
+
+Item::Item(string nazwa)
 {
-    name=nazwa;
+	name = nazwa;
 }
-Item::operator=(string nazwa)
+
+void Item::operator=(string nazwa)
 {
-    name=nazwa;
+	name = nazwa;
 }
