@@ -2,6 +2,10 @@
 #include <iostream>
 int main()
 {
-    gracz Igor();
+    cout<<"****Menu****\n";
+    cout<<"1.Nowa gra\n";
+    cout<<"2.Wczytaj gre\n";
+    int * choice=new int;
+    cin>>choice;
     return 0;
 }

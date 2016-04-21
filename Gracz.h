@@ -14,7 +14,7 @@ private:
     int INT;
     int DEX;
     string Backpack[20];
-    //Equipment EQ[12];
+    Equipment EQ[12];
     int miejsce;
 public:
     gracz(string nazwa = "None", int zycie = 200, int mana = 200, int lvl = 1, int exp = 0, int atk = 10, int def = 10, int mdef = 10, int inteligencja = 10, int dex = 10);//Konstruktor gracza
@@ -29,5 +29,6 @@ public:
     void getEXP(int);//Zdobyty exp
     void Dodge();//Unik
     void Defense(int);//Obrona
-    void magicDefense(int);//Obrona przed magi¹
+    void magicDefense(int);//Obrona przed magia
+    bool is_Dead();//sprawdza czy gracz jest martwy
 };

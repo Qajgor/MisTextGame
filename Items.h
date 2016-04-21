@@ -7,10 +7,10 @@ class Item
 private:
     string name;
 public:
-    Item(string nazwa);
+    Item(string nazwa="None");
     void operator=(string nazwa);
 };
-/*
+
 struct Equipment
 {
 	Item Helm;
@@ -24,4 +24,3 @@ struct Equipment
 	Item Ring2;
 	Item Amulet;
 };
-*/
